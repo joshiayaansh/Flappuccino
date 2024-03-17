@@ -1,7 +1,8 @@
 import pygame, sys, time, random, colorsys, math
 from pygame.math import Vector2
 from pygame.locals import *
-from .player import Player
+import player
+from player import Player
 from .background import Background
 from .button import Button
 from .bean import Bean
